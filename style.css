@@ -58,11 +58,11 @@ h1{
     right: 5px;
 }
 .input-field input{
-    font-size: 20px;
-    font-weight: 600;
+    /* font-size: 17px; */
+    /* font-weight: 300; */
     border: none;
     background-color: transparent;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 30px;
     width: 100%;
     position: relative;
@@ -93,6 +93,11 @@ h1{
 #remember{
     cursor: pointer;
 }
-/* .register{
+ .register{
 
-} */
+
+} 
+
+.register:hover{
+    text-decoration: underline;
+}
